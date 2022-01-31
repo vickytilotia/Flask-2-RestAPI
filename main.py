@@ -19,4 +19,9 @@ def avg(a):
 
 
 if __name__=="__main__":
+    # __name__ is interpereter variable store name of file
+    # __main__ is interpreter variable store name of file that has to be run 
+    # like python manage.py, here manage.py is __main__
+    # basically it prevent executing this function when this file is imported in another file
+    
     app.run(debug=True)
